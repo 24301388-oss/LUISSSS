@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Galería - Gestor Interactivo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Gestor Interactivo</h1>
+      <button id="theme-toggle-3" class="btn small">Modo oscuro</button>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca</a></li>
+        <li><a href="gallery.html">Galería</a></li>
+        <li><a href="form.html">Formulario</a></li>
+        <li><a href="dashboard.html">Panel</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Galería interactiva</h2>
+      <div class="carousel" id="carousel">
+        <div class="slides">
+          <img src="img/photo1.svg" alt="Foto 1" class="active" />
+          <img src="img/photo2.svg" alt="Foto 2" />
+          <img src="img/photo3.svg" alt="Foto 3" />
+        </div>
+        <div class="controls">
+          <button id="prev" class="btn">◀</button>
+          <button id="next" class="btn">▶</button>
+        </div>
+      </div>
+
+      <h3>Galería de miniaturas</h3>
+      <div class="thumbs" id="thumbs"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 - Proyecto de ejemplo</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
